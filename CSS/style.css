@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);
+
+body {
+    font-family: "Source Code Pro", sans-serif;
+    color: #381d1d;
+    line-height: 1.7;
+}
+
+p {
+    margin: 10px 40px;
+    justify-content: left;
+}
+
+h1, h2, h3{
+    margin: 10px;
+    font-weight: 600;
+    text-align: center;
+}
+
+h2, h3 {
+
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.accordion-item h2 {
+    margin: 0;
+
+}
+
+a {
+    color: #9B2226;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #BB3E03;
+}
+
+img {
+    min-width: 100%;
+}
+
+.btn {
+    border: 2pt solid;
+    padding: 15px 30px;
+}
+
+.btn-brand {
+    background-color: #0A9396;
+    color: white;
+    font-weight: 600;
+    border-color: #076266;
+}
+
+.btn-brand:hover {
+    background-color: #94D2BD;
+    color: black;
+    border-color: #0A9396;
+}
+
+
+.bg-image {
+    background-image: url("/resources/images/restaurant/aerial_view.png");
+    background-size: cover;
+}
+
+.eventphoto {
+
+    width: 200px;
+    height: 200px;
+}
+
+.nav-link {
+    color: #9B2226;
+    font-size: 13pt;
+    font-weight: 600;
+    text-decoration: none;
+}
